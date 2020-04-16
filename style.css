@@ -2,7 +2,7 @@
 :root {
   --blue: #0e0620;
   --white: #fff;
-  --red: red;
+  --red: rgb(255, 52, 52);
 }
 
 html,
