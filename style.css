@@ -2,7 +2,7 @@
 :root {
   --blue: #0e0620;
   --white: #fff;
-  --green: #2ccf6d;
+  --red: red;
 }
 
 html,
@@ -99,7 +99,7 @@ nav {
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--green);
+  background: var(--red);
   color: var(--blue);
   width: 300px;
   z-index: 1;
@@ -178,7 +178,7 @@ nav[data-state="open"] ul li:nth-child(4) {
   margin: 5px 0px;
 }
 .btn.green {
-  border: 4px solid var(--green);
+  border: 4px solid var(--red);
   color: var(--blue);
 }
 .btn.green:before {
@@ -188,14 +188,14 @@ nav[data-state="open"] ul li:nth-child(4) {
   top: 0;
   width: 0%;
   height: 100%;
-  background: var(--green);
+  background: var(--red);
   z-index: -1;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .btn.green:hover {
   color: var(--white);
-  background: var(--green);
+  background: var(--red);
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
